@@ -14,6 +14,18 @@ ol{
     font-size: 14px;
 }
 
+.btn{
+    height: 30px;
+    background-color: blue;
+    color: Black;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .rul{
     display: flex;
     justify-content: center;
