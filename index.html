@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <!-- player health -->
+            <div class="player">
+                <div style="background-color: red; height: 30px; width: 100%;">
+                </div>
+                <div id="playerhealth">
+                </div>
+            </div>
+            <!-- timer -->
+            <div class="timer" id="timer">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="enemyhealth">
+                <div style="background-color: red; height: 30px;">
+                </div>
+                <div id="enemyhealth">
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div class="won" id="won">Tie</div>
+        <canvas></canvas>
+        <div class="rul">
+            <div class="rules">
+                <ol>
+                    <h5>PLAYER 1</h5>
+                    <ul>
+                        <li>W->Jump</li>
+                        <li>A->Left</li>
+                        <li>D->Right</li>
+                        <li>Spacebar->Hit</li>
+                    </ul>
+                </ol>
+            </div>
+            <div class="rules2">
+                <ol>
+                    <h5>PLAYER 2</h5>
+                    <ul>
+                        <li>ArrowUp->Jump</li>
+                        <li>ArrowLeft->Left</li>
+                        <li>ArrowRight->Right</li>
+                        <li>ArrowDown->Hit</li>
+                    </ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
